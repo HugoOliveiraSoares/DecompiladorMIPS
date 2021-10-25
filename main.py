@@ -1,6 +1,8 @@
 from Tabelas import Funct, Registradores
 
 
+instrucao = input("Digite uma instrução:\n")
+
 def converterb_d(n):
     decimal = 0
     n = str(n)
@@ -12,7 +14,6 @@ def converterb_d(n):
     return decimal
 
 
-instrucao = "00010010111000000000000000010000"
 
 if instrucao.startswith("000000"):
     rs = instrucao[6:11]
